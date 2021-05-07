@@ -1,12 +1,5 @@
 
-  .moves:hover {
-    -moz-transform: translate(-2px, -2px);
-    -ms-transform: translate(-2px, -2px);
-    -o-transform: translate(-2px, -2px);
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
-    cursor: pointer;
-   }
+
 
 .navl {
   padding:1.5rem;

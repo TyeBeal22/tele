@@ -46,7 +46,7 @@ const Register = ({ history }) => {
   return (
     <>
 
-<nav sticky='top' dark expand='md' transparent scrolling style={{position: 'fixed'}}>
+<nav sticky='top' style={{position: 'fixed'}}>
 <MDBNavbarNav>
       <MDBRow>
       <div className="d-flex" style={{justifyContent:'space-between'}}>
@@ -97,66 +97,20 @@ const Register = ({ history }) => {
                             </MDBCol>
                             <MDBCol col='10'>
                               <h4 className='font-weight-bold mb-4'>
-                                <strong>Safety</strong>
+                                <strong>Quality</strong>
                               </h4>
                               <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Reprehenderit maiores nam,
-                                aperiam minima assumenda deleniti hic.
-                              </p>
-                            </MDBCol>
-                          </MDBRow>
-                          <MDBRow className='pb-4'>
-                            <MDBCol size='2' lg='1'>
-                              <MDBIcon
-                                icon='desktop'
-                                className='deep-purple-text fa-lg'
-                              />
-                            </MDBCol>
-                            <MDBCol col='10'>
-                              <h4 className='font-weight-bold mb-4'>
-                                <strong>Technology</strong>
-                              </h4>
-                              <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Reprehenderit maiores nam,
-                                aperiam minima assumenda deleniti hic.
-                              </p>
-                            </MDBCol>
-                          </MDBRow>
-                          <MDBRow className='pb-4'>
-                            <MDBCol size='2' lg='1'>
-                              <MDBIcon
-                                icon='money-bill-alt'
-                                className='purple-text fa-lg'
-                              />
-                            </MDBCol>
-                            <MDBCol col='10'>
-                              <h4 className='font-weight-bold mb-4'>
-                                <strong>Safety</strong>
-                              </h4>
-                              <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Reprehenderit maiores nam,
-                                aperiam minima assumenda deleniti hic.
+                           Crafted with Aircraft grade Alumium Rod, Razor sharp blades, powerful magnetic lids. Style and custimizations to bring you a unique product.
                               </p>
                             </MDBCol>
                           </MDBRow>
                         </MDBCol>
                         <MDBCol md='5'>
                           <MDBRow className='pb-4 d-flex justify-content-center mb-4'>
-                            <h4 className='mt-3 mr-4'>
+                            <h4 className='mr-4'>
                             <a href='/login' style={{color:'#f7a440',fontWeight:'bold'}}>
                         Already Registered? Log in
                               </a>
-                            </h4>
-                            <div className='inline-ul text-center d-flex justify-content-center'>
-
-              
-
-                            </div>
-                            <h4 className='mt-3 ml-4'>
-                              <strong>or:</strong>
                             </h4>
                           </MDBRow>
                           <RegisterForm

@@ -12,21 +12,20 @@ const SmallCard = ({
   const history = useHistory();
   return (
     <>
-      <div className="card mb-3">
-        <div className="row no-gutters justify-content-center">
+      <div className="card mb-3  justify-content-center">
+        <div className="row no-gutters">
         
          
             {h.image && h.image.contentType ? (
               <a
               onClick={() => history.push(`/hotel/${h._id}`)}
               className="card-image img img-fluid"
-                style={{height: '50vh',width: '30rem'}}
               >
               <img
                 src={`${process.env.REACT_APP_API}/hotel/image/${h._id}`}
                 alt="grinders"
-                className="card-image img img-fluid moves"
-                style={{height: '50vh',width: '30rem'}}
+                className="card-image img-fluid moves"
+                style={{height: '18em',width: '24rem'}}
               />
               </a>
             ) : (

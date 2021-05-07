@@ -10,7 +10,6 @@ import Fade from 'react-reveal/Fade';
 import { FcMultipleCameras, FcExternal } from "react-icons/fc";
 import {animateScroll as scroll} from 'react-scroll'
 import {
-  MDBNavbarNav,
   MDBContainer,
   MDBRow,
   MDBCol,
@@ -57,10 +56,10 @@ const Home = () => {
 
   return (
     <>
+ 
+    <nav style={{position: 'sticky'}}>
+   
 
-    <nav sticky='top' dark expand='md' transparent scrolling style={{position: 'fixed'}}>
-         <MDBNavbarNav>
-      <MDBRow>
       <div className="d-flex" style={{justifyContent:'space-between'}}>
       <Link className="navl" to="/">
       <FcHome size='2rem' className="moves"/>
@@ -71,6 +70,7 @@ const Home = () => {
         <FcBinoculars size="2rem" className="moves" />
         </Link>
       )}
+ 
 
       {auth !== null && (
         <a className="pointer navl" href="#" onClick={logout}>
@@ -83,18 +83,16 @@ const Home = () => {
           <Link className="navl" to="/login">
           <FcKey size='2rem' className="moves" />
           </Link>
-          <Link className="navl" to="/register">
-            <FcDataConfiguration size="2rem" className="moves"/>
-          </Link>
+
         </>
       )}
-      </div>
- 
-      </MDBRow>
-         </MDBNavbarNav>
+    </div>
+  
+
+    
          </nav>
     
- <div id='posts' style={{backgroundImage:`url(${back})`,  backgroundPosition: 'center', backgroundSize: 'cover',
+ <div style={{backgroundImage:`url(${back})`,  backgroundPosition: 'center', backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat' }}>
        
 
@@ -116,16 +114,16 @@ const Home = () => {
                     </MDBJumbotron>
                   
                     </div>
+              
                <div style={{ display: "flex",flexDirection: "column",flexDirection: "row"}}>
                     <Search />
                     </div>
         <br />
        
      
-      <div style={{ display: "flex",flexDirection: "column", position: "static",overFlow:"scroll",overflowX:"hidden",alignItems: "space-between",flexDirection: "row",maxHeight: "100vh"}}>
+      <div style={{ display: "flex",flexDirection: "column", position: "static",overflowX:"auto",flexDirection: "row",maxHeight: "100vh",alignContent: "center"}}>
   
-      <div className="col">
-        <br />
+
         {/*<pre>{JSON.stringify(hotels, null, 4)}</pre> */} 
         {hotels.map((h) => (
           <Fade>
@@ -133,7 +131,7 @@ const Home = () => {
           </Fade>
         ))}
    
-        </div>
+      
        </div>
 
 
