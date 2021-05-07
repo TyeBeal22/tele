@@ -18,7 +18,6 @@ import StripeSuccess from "./stripe/StripeSuccess";
 import StripeCancel from "./stripe/StripeCancel";
 import SearchResult from "./hotels/SearchResult";
 import Cards from './components/cards';
-import Estimate from "./components/Estimate";
 import Contact from "./components/Contact";
 
 /**
@@ -32,7 +31,6 @@ function App() {
       <ToastContainer position="top-center" />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/Estimate" component={Estimate} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
