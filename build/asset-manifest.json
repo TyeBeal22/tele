@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.57ad1e2c.chunk.css",
-    "main.js": "/static/js/main.cf07c2f4.chunk.js",
-    "main.js.map": "/static/js/main.cf07c2f4.chunk.js.map",
+    "main.js": "/static/js/main.7b12fbec.chunk.js",
+    "main.js.map": "/static/js/main.7b12fbec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c6a8b94.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c6a8b94.js.map",
     "static/css/2.e83e4d26.chunk.css": "/static/css/2.e83e4d26.chunk.css",
@@ -25,7 +25,6 @@
     "static/media/check.f1983680.svg": "/static/media/check.f1983680.svg",
     "static/media/customized.e0296b71.svg": "/static/media/customized.e0296b71.svg",
     "static/media/data.fd075672.svg": "/static/media/data.fd075672.svg",
-    "static/media/ember.7d45a331.png": "/static/media/ember.7d45a331.png",
     "static/media/forwardArrow.dd52a508.svg": "/static/media/forwardArrow.dd52a508.svg",
     "static/media/forwardArrowDisabled.67a2eb28.svg": "/static/media/forwardArrowDisabled.67a2eb28.svg",
     "static/media/Register.css": "/static/media/galaxy.a8011ea1.png",
@@ -34,6 +33,7 @@
     "static/media/info.34ca1610.svg": "/static/media/info.34ca1610.svg",
     "static/media/iphone.65349739.svg": "/static/media/iphone.65349739.svg",
     "static/media/mobile.313bed4a.svg": "/static/media/mobile.313bed4a.svg",
+    "static/media/nmarie.de92f705.jpg": "/static/media/nmarie.de92f705.jpg",
     "static/media/people.bec8a16e.svg": "/static/media/people.bec8a16e.svg",
     "static/media/person.b84df514.svg": "/static/media/person.b84df514.svg",
     "static/media/persons.5f43e59b.svg": "/static/media/persons.5f43e59b.svg",
@@ -48,6 +48,6 @@
     "static/css/2.e83e4d26.chunk.css",
     "static/js/2.ed912908.chunk.js",
     "static/css/main.57ad1e2c.chunk.css",
-    "static/js/main.cf07c2f4.chunk.js"
+    "static/js/main.7b12fbec.chunk.js"
   ]
 }
